@@ -1,0 +1,263 @@
+.container {
+    display: flex;    
+    height: auto;
+}
+
+.left-block {
+    display: flex;
+    flex-direction: column;    
+    flex: 2;
+    background-color: blue;
+    height: inherit;
+}
+
+.left-top-block {
+    display: flex;
+    background-color: #6e14c9;
+    height: 120px;
+    /* flex: 1; */
+    width: 100%;
+}
+
+.left-top-block-icon {
+    display: flex;
+    height: inherit;
+    flex: 1;
+    color: white;
+    font-size: 24pt;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.left-top-block-text {
+    display: flex;
+    height: inherit;
+    flex: 4;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.left-top-block-text-capitalize {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.left-bottom-block {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    flex: 1;
+    height: 100%;
+    background-color: #ffffff;
+    
+}
+
+.right-block {
+    display: flex;
+    flex-direction: column;
+    flex: 3;
+    background-color: yellow;
+    height: inherit;
+}
+
+.right-top-block {
+    display: flex;
+    background-color: #4d1684;
+    height: 120px;
+    width: 100%;
+    /* flex: 1; */
+    justify-content: center;
+    align-items: center;
+}
+
+.right-top-block-button {
+    display: flex;
+    background-color: #6e14c9;
+    color: white;
+    /* height: 30px; */
+    padding: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* margin-top: 20px; */
+    margin-left: 75%;
+    font-size: 12pt;
+    text-transform: uppercase;    
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+}
+
+.right-bottom-block {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    background-color: #f8f9fb;
+}
+
+.personal-photo {    
+    display: flex;
+    margin: 25px;    
+    margin-top: 100px;
+}
+
+.name h1 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40pt;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-left: 25px;
+    margin-bottom: 3px;
+
+}
+
+.block-content {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    color: grey;    
+    margin-left: 25px;
+    margin-bottom: 50px;
+}
+
+.social-network {
+    display: flex;
+    margin-left: 25px;
+    margin-bottom: 100px;
+
+}
+
+.social-network-icon {
+    display: flex;
+    margin-right: 25px;
+    font-size: 30pt;
+}
+
+.header-bar {
+    display: flex;
+    margin: 5px;
+    margin-left: 25px;
+    background-color: #6e14c9;
+    width: 40px;
+    height: 8px;
+    border-radius: 3px;
+}
+
+.topic-header h2 {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22pt;
+    font-weight: bold;
+    /* text-transform: capitalize; */
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+}
+
+.topic-subheader {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    color: grey;
+}
+
+.topic-section {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    /* color: grey; */
+}
+
+.topic-content {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    /* font-weight: bold; */
+    /* text-transform: uppercase; */
+    margin-top: 0px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    color: grey;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.expert-bar {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    background-color: #9a9fbd;
+    color: white;
+    margin-left: 25px;
+    margin-bottom: 40px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-bar {
+    display: flex;
+    margin-left: 25px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #ebebeb;    
+}
+
+.progress-bar-status {
+    display: flex;
+    /* margin-left: 25px;     */
+    height: inherit;
+    border-radius: 2px;
+    background-color: #6e14c9;
+}
+
+.achievement {
+    display: flex;
+    margin-left: 25px;
+    margin-right: 50px;        
+    height: auto; 
+    justify-content: center;
+    align-items: center;
+} 
+
+.achievement-item {
+    display: flex;
+    width: 50%;
+    margin: 5px;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none; /* Remove default bullets */
+  }
+  
+  ul li::before {
+    content: "\29BF";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #6e14c9; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */        
+    margin-right: 10px;    
+  }
