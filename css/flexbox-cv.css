@@ -1,11 +1,11 @@
 .container {
-    display: flex;    
+    display: flex;
     height: auto;
 }
 
 .left-block {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
     flex: 2;
     background-color: blue;
     height: inherit;
@@ -54,7 +54,6 @@
     flex: 1;
     height: 100%;
     background-color: #ffffff;
-    
 }
 
 .right-block {
@@ -86,7 +85,7 @@
     /* margin-top: 20px; */
     margin-left: 75%;
     font-size: 12pt;
-    text-transform: uppercase;    
+    text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 3px;
 }
@@ -99,9 +98,9 @@
     background-color: #f8f9fb;
 }
 
-.personal-photo {    
+.personal-photo {
     display: flex;
-    margin: 25px;    
+    margin: 25px;
     margin-top: 100px;
 }
 
@@ -113,14 +112,13 @@
     text-transform: capitalize;
     margin-left: 25px;
     margin-bottom: 3px;
-
 }
 
 .block-content {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12pt;
-    color: grey;    
+    color: grey;
     margin-left: 25px;
     margin-bottom: 50px;
 }
@@ -129,7 +127,6 @@
     display: flex;
     margin-left: 25px;
     margin-bottom: 100px;
-
 }
 
 .social-network-icon {
@@ -222,7 +219,7 @@
     margin-bottom: 5px;
     height: 4px;
     border-radius: 2px;
-    background-color: #ebebeb;    
+    background-color: #ebebeb;
 }
 
 .progress-bar-status {
@@ -236,11 +233,11 @@
 .achievement {
     display: flex;
     margin-left: 25px;
-    margin-right: 50px;        
-    height: auto; 
+    margin-right: 50px;
+    height: auto;
     justify-content: center;
     align-items: center;
-} 
+}
 
 .achievement-item {
     display: flex;
@@ -252,12 +249,115 @@
 }
 
 ul {
-    list-style: none; /* Remove default bullets */
-  }
-  
-  ul li::before {
-    content: "\29BF";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-    color: #6e14c9; /* Change the color */
-    font-weight: bold; /* If you want it to be bold */        
-    margin-right: 10px;    
-  }
+    list-style: none;
+    /* Remove default bullets */
+}
+
+ul li::before {
+    content: "\29BF";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #6e14c9;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    margin-right: 10px;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.portfolio-link {
+    display: flex;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+    text-transform: uppercase;
+    margin-right: 50px;
+}
+
+.portfolio-link:hover {
+    color: #6e14c9;
+}
+
+.picture-container {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.picture-item {
+    display: flex;
+    margin-right: 25px;
+    align-items: center;
+    justify-content: flex-start;
+    object-fit: cover;
+}
+
+.side-container {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    height: auto;
+}
+
+.side-item {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: auto;
+}
+
+.side-bar {
+    display: flex;
+    margin-left: 0px;
+    width: 1px;
+    height: auto;
+    background-color: #6e14c9;
+}
+
+.side-button {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #6e14c9;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18pt;
+    font-weight: 900;
+    margin-right: -15px;
+    margin-left: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright-bar {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    align-items: center;
+    background-color: #6e14c9;
+}
+
+.copyright-bar-text {
+    background-color: #6e14c9;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-left: 25px;
+}
